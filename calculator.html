@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>The Goldy Gym</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link href='https://fonts.googleapis.com/css?family=Baloo Bhai' rel='stylesheet'>
+<style>
+    body {
+        margin: 0px;
+        padding: 0px;
+        /* background: url("/man-gcea7673e9_1920.jpg"); */
+        background-color: rgb(113, 113, 113);
+        
+    }
+
+    .left {
+        display: inline-block;
+        /* border: 2px white solid; */
+        position: absolute;
+        left: 33px;
+        top: 10px;
+    }
+
+    .left img {
+        width: 70px;
+        margin: auto 30px;
+        filter: invert(1);
+    }
+
+    .left div {
+        color: white;
+    }
+
+    .center {
+        /* border: 2px solid red; */
+        display: block;
+        width: 50%;
+        margin: 15px auto;
+    }
+
+    .navbar {
+        display: inline-block;
+
+    }
+
+    .navbar li {
+        font-size: 16px;
+        display: inline-block;
+    }
+
+    .navbar li a {
+        color: black;
+        text-decoration: none;
+        padding: 34px 33px;
+        font-family: 'Baloo Bhai';
+        font-size: 15px;
+    }
+
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: white
+    }
+
+    .right {
+        display: inline-block;
+        /* border: 2px solid green; */
+        position: absolute;
+        right: 33px;
+        top: 10px;
+    }
+
+    .btn {
+        margin: 20px 10px;
+        background-color: grey;
+        color: black;
+        font-family: 'Baloo Bhai';
+        padding: 4px 8px;
+        border-radius: 8px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background-color: rgb(133, 117, 96);
+    }
+
+    .container {
+        border: 2px solid black;
+        margin: 100px 40px;
+        padding: 80px 25px;
+        width: 33%;
+        display: block;
+        border-radius: 20px;
+    }
+
+    .container h1 {
+        text-align: center;
+        font-family: 'Baloo Bhai';
+    }
+
+    .container button {
+        display: block;
+        width: 123px;
+        margin: auto;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 350px;
+        padding: 2px;
+        border: 3px solid gray;
+        margin: 7px auto;
+        font-size: 20px;
+        font-family: 'Baloo Bhai';
+    }
+    a[href^='mailto']::before {
+        content: '📧 ';
+    }
+
+    a[href^='tel']::before {
+        content: '📞 ';
+    }
+</style>
+
+<body>
+    <header class="header" style="padding: 2px;">
+        <div class="left">
+            <img src="38464.png" alt="Error">
+            <div>THE GOLDY GYM</div>
+
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="calculator.html">Fitness Calculator</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+                <li><a href="contact.html">Why Join Us?</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <a style="color: white; text-decoration: none;" href="tel:+">+91 98*****</a>
+            <br>
+            <a style="color: white; text-decoration: none; "
+            href="mailto: @gmail.com">@gmail.com</a>
+        </div>
+    </header>
+    <div class="bmi">
+        <h1 style="align-items: center; text-align: center; color: rgb(240, 105, 37);">BMI Calculator</h1>
+        <a href="https://totalshape.com/" title="BMI Calculator by TotalShape" class="ts-bmi"></a>
+        <script src="https://totalshape.com/embed/bmi.js"></script>
+    </div>
+
+    <div class="tdee">
+        <h1 style="align-items: center; text-align: center; color: rgb(240, 105, 37); font-weight: 900;">TDEE Calculator</h1>
+        <a href="https://totalshape.com/" title="TDEE Calculator by TotalShape" class="ts-tdee">Made by TotalShape</a>
+        <script src="https://totalshape.com/embed/tdee.js"></script>
+    </div>
+    <div class="tdee">
+        <h1 style="align-items: center; text-align: center; color: rgb(240, 105, 37); font-weight: 900;">MACRO Calculator</h1>
+        <a href="https://totalshape.com/" title="Macro Calculator by TotalShape" class="ts-macro">Made by TotalShape</a><script src="https://totalshape.com/embed/macro.js"></script>
+    </div>
+</body>
+
+</html>
